@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include "example2.h"
+
+int main(void) {
+	printf("SO. you're name is %s\n", NAME);
+	printf("You're age is %d \n", AGE);
+	return 0;
+}
