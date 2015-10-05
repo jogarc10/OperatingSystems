@@ -5,5 +5,3 @@ example: example.c
 	
 clean:
 	-rm -f example
-
-
