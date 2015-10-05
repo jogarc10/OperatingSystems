@@ -4,3 +4,18 @@ Este archivo, tendrá definidio qué debe hacer el sistema operativo cunado el u
 
 Para compilar un archivo en c:
 gcc -c nombreArchivo.c
+
+### How to compile 
+1. The C preprocessor examines C source files in search of constructs beginning with “#”. Preprocessor searches the associated header file and embeds its contents into the source file.
+2. El compilador coge el archivo outputeado del proceso anterior. Que incluirá los headers + los contenidos del archivo .c. Es decir, trabajará sobre un archivo .c temporal (NO sobre el archivo .c de base).
+3. The next stage (assembly) generates an object file in relocatable binary code format (such as
+archi.o). We can check out the format with the following command:
+4. The last stage (linking) resolves crossed references among source files and may also add
+library code to build the final executable file, which can be used to create an application process.
+
+
+
+ 
+Gcc options
+![alt text](/gcc_options.png "gcc options")
+
