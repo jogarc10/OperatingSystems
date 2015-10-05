@@ -1,0 +1,6 @@
+## Makefiles.
+CUando queremos ejecutar el comando make para compilar, por ejemplo, un programa, podemos guardarlo en un archivo makefile.
+Este archivo, tendrá definidio qué debe hacer el sistema operativo cunado el usuario escribe, por ejemplo, "make". EN neustras practicas:
+
+Para compilar un archivo en c:
+gcc -c nombreArchivo.c
