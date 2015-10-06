@@ -14,11 +14,13 @@ int main(void) {
 
 	/* If I try to access the array with index after the for, will cause 
            an error due index is 12... (sums 1 before exitsting loop) */
-
+	
 	for (index = 0; index < 12; index++) {
 		sum += number[index]; // sum array elements
 	}
 	printf("------------\n");
 	printf("Total sum of the array: %d\n", sum);
+	printf("Size of the array: %ld \n", sizeof(number));
 	return 1;
 }
+
